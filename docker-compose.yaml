@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  ashuwebapp:
+  gaurikawebapp:
     image: gaurikaweb:appv1
     build: .
     container_name: gaurikawebc1
