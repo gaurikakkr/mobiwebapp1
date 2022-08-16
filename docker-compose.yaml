@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  ashuwebapp:
+    image: gaurikaweb:appv1
+    build: .
+    container_name: gaurikawebc1
+    ports:
+      - 6785:80
+    restart: always
